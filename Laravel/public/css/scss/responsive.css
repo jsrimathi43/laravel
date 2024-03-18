@@ -1,0 +1,212 @@
+@media (max-width: 1400px) and (min-width: 1201px) {
+  .about-section .about .about-img {
+    margin: auto;
+  }
+  .about-section .about .about-content {
+    margin: auto;
+  }
+  .about-section .about .about-menu-list {
+    margin: auto;
+  }
+  .about-section .about .about-menu-list .menu-list-section-content h4 a {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 1200px) and (min-width: 991px) {
+  .about-section .about .about-img {
+    min-width: 50%;
+  }
+  .about-section .about .about-content {
+    min-width: 100%;
+  }
+  .about-section .about .about-menu-list {
+    min-width: 50%;
+  }
+  .about-section .about .about-menu-list .menu-list-section {
+    border: 1px solid #ffc8a4;
+    margin-bottom: 15px;
+    padding-bottom: 0 !important;
+  }
+  .copyright-section .copyright-left ul {
+    font-size: 14px;
+  }
+  .copyright-section .copyright-right p {
+    font-size: 14px;
+  }
+  .calendar-form-section .calendar-form-body {
+    min-width: 100%;
+    height: auto;
+    padding: 0px 12px 40px;
+  }
+  .calendar-form-section .calendar-form {
+    min-width: 100%;
+    height: auto;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw {
+    flex-direction: column;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw .btnOne {
+    min-width: 100%;
+    padding: 5px 12px;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw .btnTwo {
+    min-width: 100%;
+    padding: 5px 12px;
+  }
+  .solid-answer-section .solid-answer .solid-answer-body {
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .solid-answer-section .solid-answer .solid-answer-body .solid-answer-acrd {
+    min-width: 100%;
+  }
+  .solid-answer-section .solid-answer .solid-answer-body .solid-answer-img {
+    min-width: 100%;
+  }
+  .daily-menu-section1 .daily-menu-card .daily-menu-card-body .menu-card-info {
+    min-width: 100%;
+  }
+  .daily-menu-section1 .daily-menu-card .daily-menu-card-body .menu-card-price-info {
+    min-width: 100%;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .about-section .about .about-menu-list .menu-list-section .menu-list-section-content h4 a {
+    font-size: 16px !important;
+  }
+  .copyright-section .copyright-left ul {
+    justify-content: center !important;
+  }
+  .copyright-section .copyright-right p {
+    justify-content: center !important;
+  }
+  .about-our-services-section .about-our-services-body .about-our-services-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .calendar-form-section .calendar-form-body {
+    padding: 0px 12px 40px;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw {
+    flex-direction: column;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw .btnOne {
+    padding: 5px 12px;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw .btnTwo {
+    padding: 5px 12px;
+  }
+  .solid-answer-section .solid-answer .solid-answer-body {
+    row-gap: 40px;
+  }
+  .daily-menu-section1 .daily-menu-card .daily-menu-card-body .menu-card-info {
+    min-width: 100%;
+  }
+  .daily-menu-section1 .daily-menu-card .daily-menu-card-body .menu-card-price-info {
+    min-width: 100%;
+  }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+  .about-section {
+    padding: 90px 0px 58px !important;
+  }
+  .about-section .about .about-menu-list .menu-list-section .menu-list-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 15px;
+  }
+  .copyright-section .copyright-left ul {
+    justify-content: center !important;
+  }
+  .copyright-section .copyright-right {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .copyright-section .copyright-right p {
+    justify-content: center !important;
+  }
+  .checkout-page-section .checkout-page-sec .checkout-your-order {
+    padding: 0;
+  }
+  .footer-section .ftr-sec .footer-body .ftr-logo a {
+    justify-content: center !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footer-section .ftr-sec .footer-body .footer-book {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-section .ftr-sec .footer-body .footer-open {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-section .ftr-sec .footer-body .footer-social {
+    justify-content: center !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-section .ftr-sec .ftr-cnt-bdy .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-section .ftr-sec .ftr-cnt-bdy .footer-contact .adr-info {
+    justify-content: center;
+  }
+  .footer-section .ftr-sec .ftr-cnt-bdy .footer-our-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .footer-section .ftr-sec .ftr-cnt-bdy .footer-images-body .footer-images .ftr-img-sec {
+    max-width: 50%;
+  }
+  .daily-menu-section1 .daily-menu-card .daily-menu-card-body .menu-card-info {
+    min-width: 100%;
+  }
+  .daily-menu-section1 .daily-menu-card .daily-menu-card-body .menu-card-price-info {
+    min-width: 100%;
+  }
+  .about-our-services-section .about-our-services-body .about-our-services-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .about-spinner-image-section .about-spinner-image-body .spinner-image img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .calendar-form-section .calendar-form-body {
+    padding: 0px 12px 40px;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw {
+    flex-direction: column;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw .btnOne {
+    padding: 5px 12px;
+  }
+  .calendar-form-section .calendar-form form.clnd .calendar-form-btn .clndr-rw .btnTwo {
+    padding: 5px 12px;
+  }
+  .solid-answer-section .solid-answer .solid-answer-body {
+    row-gap: 40px;
+  }
+  .book-now-section .book-now-body .book-now-content {
+    flex-direction: column;
+  }
+  .book-now-section .book-now-body .book-now-content h3 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .book-now-section .book-now-body .book-now-content h3 span {
+    font-size: 32px;
+  }
+  .book-now-section .book-now-body .book-now-content a {
+    margin: auto;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,94 @@
+.main-container-section #topbar-section {
+  background-color: #dd5903;
+}
+.main-container-section .menu-container-section {
+  background: url(../../../img/about-bg-1.png) !important;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .header-navigation .navigation-menu a.nav-link {
+  color: #000;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .header-navigation .navigation-menu a.active {
+  color: #dd5903;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .reservation a.nav-link {
+  padding: 11px 34px;
+  background-color: #dd5903;
+  color: #fff;
+  font-weight: 600;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec {
+  background: #1f1f1f;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-header .close-btn-body {
+  background-color: #dd5903;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-header .close-btn-body .btn-close {
+  background: url(../../../img/icons/close-icon.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-origin: content-box !important;
+  margin: 0;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-body .navigation-menu2 a {
+  color: #fff;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-body .offcanvas-body-content p {
+  font-size: 18px;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-body .offcanvas-body-content a {
+  font-size: 18px;
+  color: #dd5903;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-body .opening p {
+  font-size: 18px;
+  color: #fff;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-body .offcanvas-social ul {
+  gap: 20px;
+  justify-content: center;
+}
+.main-container-section .menu-container-section .navi-sec .navi-body .navi-cont .off-toggler-sec .offcanvas-block-sec .offcanvas-body .offcanvas-social ul li a {
+  font-size: 18px;
+  color: #fff;
+}
+
+@media (max-width: 991px) and (min-width: 600px) {
+  #topbar-section .topbar-body .tpbar {
+    justify-content: center;
+  }
+  .menu-container-section {
+    background: url(../../../img/about-bg-1.png) !important;
+  }
+  .menu-container-section .navi-sec .navi-body .navi-cont {
+    padding: 0 10px;
+  }
+  .menu-container-section .navi-sec .navi-body .navi-cont .navi-logo {
+    max-width: 50%;
+    display: flex;
+  }
+  .menu-container-section .navi-sec .navi-body .navi-cont .reservation-cnt {
+    max-width: 50%;
+    justify-content: flex-end;
+  }
+  .menu-container-section .navi-sec .navi-body .navi-cont .reservation-cnt .user-acnt {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 576px) {
+  #topbar-section .topbar-body .tpbar {
+    font-size: 14px;
+  }
+  #topbar-section .topbar-body .tpbar ul li a {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  .menu-container-section .navi-sec .navi-body .navi-cont .reservation-cnt .user-acnt {
+    margin-top: 0 !important;
+  }
+  .menu-container-section .navi-sec .navi-body .navi-cont .reservation-cnt .user-acnt a {
+    margin-left: 10px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
