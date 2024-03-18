@@ -1,0 +1,141 @@
+$primary:#dd5903;
+$black:#000;
+$darkgrey:#1f1f1f;
+$white:#fff;
+$lightorange:#FFC49D;
+$lightgrey:#F7F7F7;
+$footer-heading:22px;
+$heading:40px;
+$card-heading:24px;
+$four:400;
+$five:500;
+$six:600;
+$heading-font:"Arapey", sans-serif;
+$content-font:"Plus Jakarta Sans", sans-serif;
+$footer-heading-font:"Merienda", sans-serif;
+
+.footer-section{    
+    background: url(../../../img/bg-image-restaurant.webp);
+    .ftr-sec{
+        .footer-body{
+            padding: 50px 0;
+            .footer-social{
+                ul{
+                    gap: 10px;
+                    li{
+                        width: 45px;
+                        height: 45px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5px;
+                        background-color:$primary;
+                        border-radius: 4px;
+                    }
+                    a{
+                        font-size: 20px;
+                        color: $white;
+                    }
+                }
+            }
+            .footer-book{
+                h4{
+                    font-size:$footer-heading;
+                    color: $lightorange;
+                    font-weight: $six;
+                    font-family: $heading-font;
+                }
+                a{
+                    color: $white;
+                    font-weight: $six;
+                }
+            }
+            .footer-open{
+                h4{
+                    font-size:$footer-heading;
+                    color:$lightorange;
+                    font-weight: $six;
+                    font-family: $heading-font;
+                }
+                a{
+                    color:$white;
+                    cursor: unset;
+                    font-weight: $six;
+                }
+            }
+        }
+        .footer-divider-body{
+            .footer-divider{
+                background-color: grey;
+                width: 90%;
+                height: 0.6px;
+                margin-bottom: 10px;
+            }
+        }
+        .footer-contact{
+            h3{
+                color: $primary;
+                font-size:$footer-heading;     
+                font-weight: $six; 
+                font-family: $footer-heading-font;      
+            }
+        }
+        .footer-our-links{
+            h3{
+                color: $primary;
+                font-size:$footer-heading;
+                font-weight: $six;
+                font-family: $footer-heading-font;
+            }
+            ul{
+                li{
+                    a{
+                        color:$white;
+                    }
+                }
+            }
+        }     
+        .ftr-cnt-bdy{
+            .footer-images{
+                .ftr-img-sec{                    
+                    padding: 6px;
+                    img{
+                        min-width: 100%;
+                    }
+                }
+            }
+            .footer-contact{
+                .adr-info{
+                    svg{
+                        min-width: 16px;
+                    }
+                }
+            }
+        }   
+    }    
+    
+}
+.copyright-section{
+    background-color: $primary;
+    .copyright-left{
+        ul{
+            li{
+                a{
+                    font-weight: $six;
+                }
+            }
+        }
+    }
+    .copyright-right{
+        p{
+            font-weight: $six;
+            a{
+                padding-right: 0;
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+
+
